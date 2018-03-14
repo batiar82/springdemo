@@ -39,12 +39,12 @@ public class UserTest implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("USER TEST");
 		//log.info("LALALAL EN TESTUSER");
-		TopicDTO updated=new TopicDTO();
-		updated.setName("Nuevo de java");
+		//TopicDTO updated=new TopicDTO();
+		//updated.setName("Nuevo de java");
 		//topicService.updateTopic(1, updated);
 		//updated.setName("Cambio de nuevo");
 		//ßtopicService.updateTopic(1, updated);
-		topicService.listPostTitlesAndTopics(1);
+		//topicService.listPostTitlesAndTopics(1);
 		/*User user= new User();
 		user.setName("Mariano");
 		user.setRole("ADMIN");
