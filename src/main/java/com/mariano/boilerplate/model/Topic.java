@@ -21,7 +21,7 @@ public class Topic {
 	@Column(name="name", nullable=false)
 	private String name;
 	@OneToMany(mappedBy="topic")
-	@JsonIgnore
+	//@JsonIgnore
 	private Set<Post> posts;
 	public Integer getId() {
 		return id;

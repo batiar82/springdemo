@@ -19,7 +19,7 @@ import com.mariano.boilerplate.model.Topic;
 import com.mariano.boilerplate.model.DTO.TopicDTO;
 import com.mariano.boilerplate.service.impl.TopicService;
 
-@RestController
+//@RestController
 public class TopicController {
 	@Autowired
 	private TopicService topicService;
